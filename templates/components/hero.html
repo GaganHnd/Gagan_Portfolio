@@ -1,0 +1,68 @@
+<section class="hero">
+
+    <div class="hero-left">
+
+        <p class="hero-tag">
+            👋 Hello, I'm
+        </p>
+
+        <h1>
+            <span>Gagan</span> S Handral
+        </h1>
+
+
+        <h2>
+            AI/ML Enthusiast | Software Developement | Python Developement
+        </h2>
+
+        <p class="hero-description">
+            Computer Science & Business Systems graduate passionate about
+            Artificial Intelligence, Machine Learning and Full-Stack Development.
+            I enjoy building scalable AI-powered applications and solving real-world 
+            problems through modern software engineering.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn-primary">
+                🚀 Explore Projects
+            </a>
+
+            <a href="{{ url_for('static', filename='files/resume.pdf') }}"
+                download
+                class="btn-secondary">
+                📄 Resume
+            </a>
+
+        </div>
+
+        <div class="social-links">
+
+            <a href="https://github.com/GaganHnd" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/gagan-handral" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                LinkedIn
+            </a>
+
+            <a href="mailto:handralgagan@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                Email
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-right">
+
+        <img
+            src="{{ url_for('static', filename='images/profile.jpeg') }}"
+            alt="Gagan">
+
+    </div>
+
+</section>
