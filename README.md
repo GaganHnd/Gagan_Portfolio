@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌐 Gagan's Portfolio
 
 A modern, responsive personal portfolio website showcasing my projects, skills, experience, certifications, and leadership activities.
@@ -192,4 +191,3 @@ http://127.0.0.1:5000
 ---
 
 Designed & Developed by **Gagan S Handral**
->>>>>>> c1038c7 (Added portfolio preview screenshot)
