@@ -1526,16 +1526,3 @@ footer{
     }
 
 }
-
-/* ================= MOBILE MENU ================= */
-
-.menu-toggle{
-    display:none;
-    font-size:28px;
-    cursor:pointer;
-    color:white;
-}
-
-.nav-links.active{
-    display:flex;
-}
