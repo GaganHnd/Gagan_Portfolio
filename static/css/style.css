@@ -1406,62 +1406,206 @@ footer{
 }
 
 
-/* Small Phones */
+/* ================= MOBILE ================= */
 
-@media (max-width:480px){
+@media (max-width:768px){
+
+    /* Navbar */
+    .navbar{
+    padding:18px 6%;
+    }
+
+    .logo{
+        font-size:22px;
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+        position:absolute;
+        top:75px;
+        left:0;
+        width:100%;
+        background:#161B22;
+        flex-direction:column;
+        align-items:center;
+        gap:25px;
+        padding:30px 0;
+        border-top:1px solid #30363D;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    /* Hero */
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding:120px 6% 70px;
+        gap:50px;
+    }
+
+    .hero-left{
+        padding-top:0;
+    }
 
     .hero-left h1{
+        font-size:42px;
+        line-height:1.2;
+    }
 
-        font-size:38px;
+    .hero-left h2{
+        font-size:22px;
+    }
 
+    .hero-description{
+        font-size:17px;
+        max-width:100%;
     }
 
     .hero-right img{
-
-        width:230px;
-
-        height:230px;
-
+        width:220px;
+        height:220px;
     }
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .hero-buttons a{
+        width:100%;
+        max-width:320px;
+        text-align:center;
+    }
+
+    .social-links{
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:18px;
+    }
+
+    /* About */
+
+    .about-container{
+        flex-direction:column;
+    }
+
+    .about-cards{
+        grid-template-columns:1fr;
+    }
+
+    .about-text p{
+        font-size:17px;
+    }
+
+    /* Experience */
+
+    .experience-card{
+        padding:25px;
+    }
+
+    .experience-top{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .experience-info h3{
+        font-size:24px;
+    }
+
+    /* Certifications */
+
+    .cert-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* Leadership */
+
+    .leadership-top{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .leadership-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* Projects */
+
+    .project-banner{
+        height:220px;
+    }
+
+    .project-header{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:15px;
+    }
+
+    .featured-badge{
+        align-self:flex-start;
+    }
+
+    .project-links{
+        flex-direction:column;
+    }
+
+    .project-links a{
+        width:100%;
+        justify-content:center;
+    }
+
+    /* Skills */
+
+    .skills-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .skill-card{
+        padding:20px;
+    }
+
+    /* Contact */
+
+    .contact-card{
+        padding:25px;
+    }
+
+    .contact-buttons{
+        flex-direction:column;
+    }
+
+    .contact-btn{
+        justify-content:center;
+    }
+
+    /* Headings */
 
     .section-title{
-
-        font-size:34px;
-
+        font-size:36px;
     }
 
-    .project-content{
-
-        padding:25px;
-
+    .section-subtitle{
+        font-size:16px;
     }
 
 }
 
-/* Scrollbar */
+/* ================= MOBILE MENU ================= */
 
-::-webkit-scrollbar{
-
-    width:10px;
-
+.menu-toggle{
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+    color:white;
 }
 
-::-webkit-scrollbar-track{
-
-    background:#0D1117;
-
-}
-
-::-webkit-scrollbar-thumb{
-
-    background:#2563EB;
-
-    border-radius:20px;
-
-}
-
-::-webkit-scrollbar-thumb:hover{
-
-    background:#3B82F6;
-
+.nav-links.active{
+    display:flex;
 }
