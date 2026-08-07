@@ -48,6 +48,20 @@ body {
     color: #3B82F6;
 }
 
+/* Hamburger Menu */
+
+.menu-toggle{
+    display: none;
+    font-size: 28px;
+    color: #F8FAFC;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-toggle:hover{
+    color:#3B82F6;
+}
+
 /* ---------------- HERO ---------------- */
 
 .hero{
@@ -1333,7 +1347,10 @@ footer{
     }
 
     .menu-toggle{
-        display:block;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:30px;
     }
 
     .nav-links{
